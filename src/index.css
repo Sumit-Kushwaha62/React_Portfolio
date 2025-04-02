@@ -1,17 +1,23 @@
 :root {
   --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
-  --bg-color: rgb(40, 47, 97);
+  /* --bg-color: rgb(40, 47, 97); */
+  --bg-color: #c0d6df;
 }
 
 body {
-  background-color: rgb(11, 26, 51);
-  color: white;
+  /* background-color: rgb(11, 26, 51); */
+  background-color: #c7f9cc;
+
+  color: #403d39;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #403d39;
 }
+
+
+
 
 /* Navbar Section */
 
@@ -29,7 +35,7 @@ a {
 }
 
 .nav_bar .nav_items:hover {
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid #011627;
 }
 
 
@@ -48,7 +54,7 @@ a {
   text-align: center;
   padding: 30px;
   border-radius: 10px;
-  border: 1px solid yellow;
+  border: 1px solid black;
   box-shadow: var(--box-shadow);
 }
 
@@ -120,10 +126,42 @@ a {
   box-shadow: var(--box-shadow);
 }
 
+/* About */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centers content horizontally */
+  text-align: center;
+  /* Ensures text is centered */
+  margin-top: 20px;
+  /* Adds some spacing */
+  margin-bottom: 50px;
+}
+
+.text {
+
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* Space between heading and paragraph */
+  font-size: 2.1rem;
+}
+
+.text1 {
+  max-width: 1000px;
+  /* Restricts width for better readability */
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #15616d;
+}
+
+
 /* Skills */
 
 .skills {
   width: 900px;
+
 }
 
 .skills .items {
@@ -131,25 +169,30 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* width: 800px; */
+
   margin: auto;
-  /* background-color: yellow; */
+
 }
 
 .skills .items .item {
   width: calc(33.33%);
-  background-color: black;
+  background-color: #ccc5b9;
   margin: 20px;
+
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
+
+
 }
 
 .skills .items .item img {
   width: 70px;
 }
+
+
 
 /* Contact */
 
@@ -161,7 +204,9 @@ a {
 }
 
 .contact-icon .items {
-  background-color: black;
+  background-color: #ccc5b9;
+
+
   margin: 10px;
   height: 70px;
   width: 70px;
@@ -169,7 +214,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  border: 2px solid yellow;
+  border: 2px solid black;
 }
 
 .contact-icon .items:hover {
