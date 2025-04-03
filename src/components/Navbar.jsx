@@ -13,7 +13,7 @@ const Navbar = () => {
             Home
           </a>
 
-          <a href="" className="nav_items">
+          <a href="#about" className="nav_items">
             About
           </a>
 

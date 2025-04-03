@@ -22,7 +22,7 @@ const App = () => {
       <div className="container">
         <Home />
         <About/>
-        <skil/>
+       
         {/* <Experience /> */}
         <Skills />
         <Projects />
@@ -33,3 +33,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+
