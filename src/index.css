@@ -6,7 +6,7 @@
 
 body {
   /* background-color: rgb(11, 26, 51); */
-  background-color: #c7f9cc;
+  background-color: #7fa1c4;
 
   color: #403d39;
 }
@@ -56,6 +56,7 @@ a {
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: var(--box-shadow);
+  
 }
 
 .home .right .img {
@@ -153,7 +154,8 @@ a {
   /* Restricts width for better readability */
   font-size: 1.3rem;
   line-height: 1.5;
-  color: #15616d;
+  color: #050574;
+  font-style: oblique;
 }
 
 
@@ -225,3 +227,31 @@ a {
 .contact-icon .items .icons {
   font-size: 2rem;
 }
+
+
+
+
+.btn.btn-outline-warning {
+  font-style: normal;  /* Makes text italic */
+  font-weight: bold;  /* Optional: Makes text bold */
+  color: #2f1e64;  /* Warning yellow color */
+  border: 2px solid #2c07ff;  /* Outline color */
+  background-color: transparent;  /* Keeps it outlined */
+  padding: 10px 20px;  /* Adds padding */
+  border-radius: 5px;  /* Rounds button corners */
+  
+}
+
+.btn.btn-outline-warning:hover {
+  background-color: #ffc107;  /* Changes background on hover */
+  color: black;  /* Text color on hover */
+}
+
+
+
+
+
+
+
+
+
