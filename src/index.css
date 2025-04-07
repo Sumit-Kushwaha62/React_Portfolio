@@ -1,15 +1,25 @@
 :root {
-  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+  --box-shadow: 5px 5px 10px 10px rgba(55, 104, 79, 0.5);
   /* --bg-color: rgb(40, 47, 97); */
   --bg-color: #c0d6df;
 }
 
-body {
-  /* background-color: rgb(11, 26, 51); */
+/* body {
+  
   background-color: #7fa1c4;
 
   color: #403d39;
+} */
+
+
+body {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #f0f3bd);
+  /* You can add more colors */
 }
+
+
+
+
 
 a {
   text-decoration: none;
@@ -49,13 +59,17 @@ a {
 }
 
 .home .left {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
+  background-color: #ffe1a8;
   width: 620px;
   text-align: center;
   padding: 30px;
   border-radius: 10px;
   border: 1px solid black;
   box-shadow: var(--box-shadow);
+  box-shadow: 4px 9px 20px rgba(58, 5, 233, 0.4); 
+
+
   
 }
 
@@ -154,7 +168,7 @@ a {
   /* Restricts width for better readability */
   font-size: 1.3rem;
   line-height: 1.5;
-  color: #050574;
+  color: #1b4965;
   font-style: oblique;
 }
 
