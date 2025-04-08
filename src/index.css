@@ -11,11 +11,17 @@
   color: #403d39;
 } */
 
-
+/* 
 body {
   background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #f0f3bd);
-  /* You can add more colors */
+  
+} */
+
+body {
+  background: linear-gradient(to right, #f3b9bb, #f0f3bd, white);
 }
+
+
 
 
 
